@@ -1,0 +1,39 @@
+.input-container {
+    margin: 20px;
+    text-align: center;
+  }
+.custom-input {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #666666; /* Input text color */
+  text-align: center;
+}
+  #inputName {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+
+  #inputName:focus {
+    border-color: #007bff;
+  }
+
+  .input-label {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+  }
+
+  #inputName:not(:placeholder-shown) + .input-label {
+    transform: translateY(-15px);
+    font-size: 12px;
+    color: #007bff;
+  }
